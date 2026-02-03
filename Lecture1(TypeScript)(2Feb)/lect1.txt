@@ -1,0 +1,32 @@
+function isAllowedToVote(age){
+    if(age< 18)return false;
+    return true;
+
+}
+
+let res = isAllowedToVote();
+
+consolve.log(result);
+
+
+//the code should output error--- but it output true as the age is undefined
+
+
+//this means that the user is allowed to vote and his age is above 18
+//so it is the error in our code 
+
+
+//when we define a parameter in javascript and when we not define the value
+//then the value is passed as undefined 
+
+
+variable is declared but the value is not assigned
+
+
+
+npx tsc -- init
+
+nodejs will ignore all types of error..so despite of the error..the code runs
+
+
+WHAT is the difference between type and interface 
