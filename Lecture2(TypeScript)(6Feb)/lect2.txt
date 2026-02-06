@@ -1,0 +1,14 @@
+defining typescript
+there are three ways 
+to define types in typescript 
+
+1. implicit typing
+2. type annotation
+3. type inference
+
+
+
+DIFFERENCE BETWEEN TYPE AND INTERFACE 
+
+using type we can create a union type but we cannot create union type using interface
+
