@@ -1,0 +1,34 @@
+graphql   -> single and point 
+
+-> Query language 
+
+
+in rest architecture we have problem of excessive and underexcessive data 
+like if we want a data... then rest api will share all the data but we only required certain
+ so in this case... there is excessive use of bandwidth ,,, hence graphql will help to solve it 
+
+ typedefs  ---> Creating a table /Schema 
+
+
+ **** typeUser {
+    id: ID,
+    name : String ,
+    email : String 
+ }
+
+**** type query {
+    getUser : [User]
+    getOneUser: User
+ }
+
+*** resolvers 
+functions implementation of query 
+
+
+
+
+////steps
+ 
+
+--- npm install @apollo/server graphql
+//now we design the schema of our graphql

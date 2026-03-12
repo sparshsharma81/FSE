@@ -1,0 +1,17 @@
+{
+  "name": "lecture4(graphql)(11march)",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types" :"module", 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^5.4.0",
+    "graphql": "^16.13.1"
+  }
+}
