@@ -1,0 +1,25 @@
+resolver in graphql 
+resolver is a function that is responsible for fetching the data for a specific field in a graphql query. it is called when a query is executed and it returns the data for that field.
+a resolver can be defined for each field in the schema, and it can be used to fetch
+
+
+JWT
+AUTHENTICATION AND AUTHORIZATION 
+JWT stands for JSON Web Token. It is a compact, URL-safe means of representing claims to be transferred between two parties.
+ The claims in a JWT are encoded as a JSON object that is used as the payload of a JSON Web Signature (JWS) structure 
+ or as the plaintext of a JSON Web Encryption (JWE) structure, enabling the claims to be digitally signed or
+  integrity protected with a Message Authentication Code (MAC) and/or encrypted.
+
+JWTs are commonly used for authentication and authorization purposes. They can be used to securely 
+transmit information between parties, such as user identity and permissions, without the need for a server 
+to maintain session state. This makes them particularly useful in stateless applications, such as those built with GraphQL, 
+where the server does not need to keep track of user sessions.
+
+In a typical authentication flow using JWT, a user will log in with their credentials,
+ and if the credentials are valid, the server will generate a JWT and send it back to the client.
+  The client can then include this JWT in the Authorization header of subsequent requests to access protected resources. 
+  The server can verify the JWT and extract the user information and permissions from it to determine if the request 
+  should be allowed or denied.
+Overall, JWTs provide a secure and efficient way to handle authentication and
+ authorization in modern web applications
+
